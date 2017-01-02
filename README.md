@@ -71,6 +71,8 @@ A VM will be provided for the lab (TODO).  Only **VMWare hypervisors** have been
     cd /Applications/VMware\ Fusion.app/Contents/Library/VMware\ OVF\ Tool/
     ./ovftool --acceptAllEulas /path/to/VM.vmx /path/to/VM.ova
     ```
+[1]:  I typically make sure to create VMs as harware version 10 under Compatibility because I've found it fixes some issues with transferring VMs between VMware Fusion and ESXi 5.5.
+
 
 ## Updating this branch  
 ### Linux
@@ -86,6 +88,7 @@ git pull
 ### General Hardware / Software
 * https://github.com/pwnieexpress/blue_hydra
 * https://greatscottgadgets.com/ubertoothone/
+* https://github.com/merculite/BLE-Security
 
 ### Android
 * https://developers.google.com/nearby/
@@ -95,11 +98,13 @@ git pull
 * https://developer.apple.com/ibeacon/
 
 ### Misc
+* [Picking Bluetooth Low Energy Locks from a Quarter Mile Away](https://www.youtube.com/watch?v=8h9nbMB1eTE) ([slides](https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Rose-Ramsey-Picking-Bluetooth-Low-Energy-Locks-UPDATED.pdf), [code](https://github.com/merculite/BLE-Security))
 * https://www.youtube.com/watch?v=aVun9cLZRUA
 * https://www.youtube.com/watch?v=0FfvLxW_cZg
 * http://blog.beaconstac.com/2015/10/rfid-vs-ibeacon-ble-technology/
 * https://kontakt.io/blog/beacon-security/
-
-
-[1]:  I typically make sure to create VMs as harware version 10 under Compatibility because I've found it fixes some issues with transferring VMs between VMware Fusion and ESXi 5.5.
+* https://media.ccc.de/v/33c3-8272-on_smart_cities_smart_energy_and_dumb_security
+* https://media.ccc.de/v/33c3-8019-lockpicking_in_the_iot
+* http://www.somersetrecon.com/blog/2016/6/7/electronic-safe-lock-analysis-part-1-teardown
+* http://www.somersetrecon.com/blog/2016/10/14/electronic-safe-lock-analysis-part-2-
 
